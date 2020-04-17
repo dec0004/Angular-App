@@ -1,0 +1,7 @@
+<h1>Login</h1>
+<form (ngSubmit)="FindUser()">
+  <label for="uName">User name</label>
+  <input type="text" id="uName" name="uName" [(ngModel)]="uName"><br><br>
+  <input type="submit" value="Submit">
+  {{data[0]}}
+</form>
